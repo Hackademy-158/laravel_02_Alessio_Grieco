@@ -8,3 +8,4 @@ Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 Route::get('/chi-siamo', [PublicController::class, 'chiSiamo'])->name('chi-siamo');
 Route::get('/servizi', [PublicController::class, 'servizi'])->name('servizi');
 Route::get('/contattaci', [PublicController::class, 'contattaci'])->name('contattaci');
+Route::post('/contattaci/mailcommit', [PublicController::class, 'formControl'])->name('contattaci.invio');

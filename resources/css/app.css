@@ -125,7 +125,6 @@ a .btn-primary:active {
 }
 
 .hero-section::after {
-    content: '';
     position: absolute;
     bottom: -50px;
     left: 0;
